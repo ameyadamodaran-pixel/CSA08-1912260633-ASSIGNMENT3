@@ -1,0 +1,158 @@
+{
+  "12601": {
+    "name": "Chennai Mail",
+    "stops": [
+      [
+        "Chennai",
+        "06:00",
+        "06:15"
+      ],
+      [
+        "Katpadi",
+        "08:10",
+        "08:15"
+      ],
+      [
+        "Jolarpettai",
+        "09:35",
+        "09:40"
+      ],
+      [
+        "Bengaluru",
+        "12:00",
+        "12:10"
+      ]
+    ],
+    "days": [
+      "Fri",
+      "Mon",
+      "Sat",
+      "Thu",
+      "Tue",
+      "Wed"
+    ]
+  },
+  "12602": {
+    "name": "Bengaluru Express",
+    "stops": [
+      [
+        "Chennai",
+        "07:00",
+        "07:10"
+      ],
+      [
+        "Arakkonam",
+        "08:20",
+        "08:25"
+      ],
+      [
+        "Katpadi",
+        "09:30",
+        "09:35"
+      ],
+      [
+        "Bengaluru",
+        "12:30",
+        "12:40"
+      ]
+    ],
+    "days": [
+      "Fri",
+      "Mon",
+      "Sun",
+      "Wed"
+    ]
+  },
+  "12603": {
+    "name": "Coastal Link",
+    "stops": [
+      [
+        "Chennai",
+        "08:00",
+        "08:10"
+      ],
+      [
+        "Tambaram",
+        "08:35",
+        "08:40"
+      ],
+      [
+        "Villupuram",
+        "10:20",
+        "10:30"
+      ],
+      [
+        "Tiruchirappalli",
+        "13:00",
+        "13:10"
+      ]
+    ],
+    "days": [
+      "Sat",
+      "Thu",
+      "Tue"
+    ]
+  },
+  "12604": {
+    "name": "Hill Route",
+    "stops": [
+      [
+        "Bengaluru",
+        "06:30",
+        "06:40"
+      ],
+      [
+        "Jolarpettai",
+        "09:00",
+        "09:05"
+      ],
+      [
+        "Katpadi",
+        "10:15",
+        "10:20"
+      ],
+      [
+        "Chennai",
+        "12:45",
+        "12:55"
+      ]
+    ],
+    "days": [
+      "Daily"
+    ]
+  },
+  "12605": {
+    "name": "Southern Passenger",
+    "stops": [
+      [
+        "Chennai",
+        "09:00",
+        "09:05"
+      ],
+      [
+        "Katpadi",
+        "11:30",
+        "11:35"
+      ],
+      [
+        "Salem",
+        "14:00",
+        "14:05"
+      ],
+      [
+        "Coimbatore",
+        "17:00",
+        "17:10"
+      ]
+    ],
+    "days": [
+      "Fri",
+      "Mon",
+      "Sat",
+      "Sun",
+      "Thu",
+      "Tue",
+      "Wed"
+    ]
+  }
+}

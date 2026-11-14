@@ -1,0 +1,11 @@
+valid Celsius/Fahrenheit: [(4.0, 39.2), (5.2, 41.4), (8.5, 47.3), (6.4, 43.5), (2.0, 35.6), (7.8, 46.0), (9.1, 48.4), (0.0, 32.0), (50.0, 122.0), (-50.0, -58.0), (3.3, 37.9), (6.0, 42.8), (12.0, 53.6)]
+loop == comprehension == map/filter: True
+alarm minutes outside 2–8 C: [(3, 8.5), (4, 51.0), (5, -55.0), (9, 9.1), (10, 0.0), (11, 50.0), (12, -50.0), (15, 12.0)]
+dictionary comprehension: {1: 39.2, 2: 41.4, 3: 47.3, 6: 43.5, 7: 35.6, 8: 46.0, 9: 48.4, 10: 32.0, 11: 122.0, 12: -58.0, 13: 37.9, 14: 42.8, 15: 53.6}
+set comprehension of valid Celsius: [-50.0, 0.0, 2.0, 3.3, 4.0, 5.2, 6.0, 6.4, 7.8, 8.5, 9.1, 12.0, 50.0]
+generator/list memory for 100k:
+800984 200 bytes (container sizes; generator excludes yielded values)
+Benchmark n, loop_s, comprehension_s, map_filter_s
+10000: 0.001073, 0.001040, 0.001247
+100000: 0.009775, 0.010259, 0.012708
+1000000: 0.101040, 0.098658, 0.251033

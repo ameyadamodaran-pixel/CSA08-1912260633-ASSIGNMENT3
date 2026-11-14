@@ -1,0 +1,10 @@
+top words: [('seeds', 3), ('price', 2), ('received', 2)]
+complaints by district: {'Thanjavur': ['seeds delayed', 'fertiliser supply'], 'Madurai': ['irrigation issue'], 'Salem': ['crop disease']}
+complaints by crop: {'rice': ['seed delay', 'fertiliser'], 'cotton': ['pest issue']}
+empty text: {} case/punctuation: {'seeds': 3}
+expected tie order: [('seeds', 3), ('price', 2), ('received', 2)]
+Benchmark words: n, dict_s, list_count_s, Counter_s
+1000: 0.000048, 0.000195, 0.000098
+10000: 0.000502, 0.001532, 0.000336
+100000: 0.005252, 0.014857, 0.003533
+Dictionary views: keys() gives keys, values() gives values, items() gives key-value pairs.

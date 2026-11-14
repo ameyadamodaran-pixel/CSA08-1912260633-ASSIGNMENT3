@@ -1,0 +1,12 @@
+bad : [[0, 7, 0, 0], [0, 7, 0, 0], [0, 7, 0, 0]]
+good: [[0, 7, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+row identity: True False
+tuple key lookup: T. Nagar
+list key error: TypeError unhashable type: 'list'
+alias is original: True
+shallow sees nested change: 99 deep copy retains: 1
+mutated caller list: ['changed']
+mutable item inside tuple: ([1, 2, 3], 'fixed outer tuple')
+container shallow sizes for 1,000,000 refs: 8000056 8000040 bytes
+100k create seconds tuple=0.002464, list=0.002274
+single index seconds tuple=0.000001169, list=0.000000560

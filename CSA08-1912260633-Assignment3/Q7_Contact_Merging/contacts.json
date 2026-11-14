@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dr. Ravi Kumar",
+    "phone": "+91 98400 12345",
+    "email": "ravi@example.com"
+  },
+  {
+    "name": "Ravi Kumar",
+    "phone": "9840012345",
+    "email": "ravi.work@example.com"
+  },
+  {
+    "name": "Ravi K.",
+    "phone": "+91-98400-12345",
+    "email": ""
+  },
+  {
+    "name": "Meena",
+    "phone": "+91 90000 11111",
+    "email": "meena@example.com"
+  },
+  {
+    "name": "Meena S",
+    "phone": "9000011111",
+    "email": "meena@example.com"
+  },
+  {
+    "name": "Arun",
+    "phone": "",
+    "email": "arun@example.com"
+  }
+]

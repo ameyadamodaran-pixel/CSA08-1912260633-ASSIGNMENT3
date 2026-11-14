@@ -1,0 +1,9 @@
+Merged contact groups:
+{'identity_key': '9000011111', 'names': ['Meena', 'Meena S'], 'phones': ['9000011111'], 'emails': ['meena@example.com']}
+{'identity_key': '9840012345', 'names': ['Dr. Ravi Kumar', 'Ravi K.', 'Ravi Kumar'], 'phones': ['9840012345'], 'emails': ['ravi.work@example.com', 'ravi@example.com']}
+{'identity_key': 'email:arun@example.com', 'names': ['Arun'], 'phones': [], 'emails': ['arun@example.com']}
+input contacts: 6 merged groups: 3
+test groups: [{'identity_key': '9840012345', 'names': ['A', 'A2'], 'phones': ['9840012345'], 'emails': []}, {'identity_key': 'email:x@y.com', 'names': ['No phone'], 'phones': [], 'emails': ['x@y.com']}]
+Benchmark contacts, seconds
+1000: 0.002483; groups=500
+100000: 0.569331; groups=50000

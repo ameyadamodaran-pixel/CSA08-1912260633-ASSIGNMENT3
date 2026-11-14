@@ -1,0 +1,13 @@
+Readings: 365; weekly totals: 53
+Wettest week: 44, total=156.1 mm
+Driest week: 53, total=12.3 mm
+Maximum daily rainfall: 34.6 mm on day 361
+Minimum daily rainfall: 0.0 mm on day 1
+7-day moving averages: 359; first=16.07 mm
+Dry days (0 mm): 43; first 15=[1, 14, 19, 38, 40, 48, 57, 64, 67, 73, 74, 76, 78, 82, 86]
+Slices: readings[7:14] = days 8-14; readings[-7:] = final 7 days; readings[::7] = every 7th reading
+Edge tests: [] []
+Benchmark (n, naive seconds, running-sum seconds)
+365, 0.000120, 0.000055
+36500, 0.010031, 0.003928
+365000, 0.127711, 0.080654
